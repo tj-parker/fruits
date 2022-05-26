@@ -26,7 +26,8 @@ a {
     color: #E0D74E;
     padding: 20px;
     border: solid 3px #5A78E0;
-    background: #CA43E0
+    background: #CA43E0;
+    margin: 20px;
 }
 
 li {
@@ -36,4 +37,5 @@ li {
 
 img {
     width: 250px;
+    padding: 15px;
 }
