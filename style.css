@@ -1,0 +1,39 @@
+html {
+    background-color: #CA43E0;
+}
+
+body {
+  background: #435594;
+  color: #E0D74E;
+}
+
+nav {
+    background-color: #842594;
+    padding: 10px;
+    border: solid 5px #5A78E0;
+    display: inline-block;
+}
+
+h1 {
+  color: #E0D74E;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: #E0D74E;
+    padding: 20px;
+    border: solid 3px #5A78E0;
+    background: #CA43E0
+}
+
+li {
+    border: solid 3px #842594;
+    display: inline-block;
+}
+
+img {
+    width: 250px;
+}
