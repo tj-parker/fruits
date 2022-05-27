@@ -2,17 +2,24 @@ let favFruit = prompt("What is you favorite fruit?");
 console.log(favFruit);
 
 
-if (favFruit == "coconut"){
+function capitalize() {
+    favFruitCap = favFruit.charAt(0).toUpperCase();
+    favFruit = favFruitCap + favFruit.slice(1);
+}
+
+
+if (favFruit == null) {
+    favFruit = prompt("Don't have one? You'll get scurvy! You gotta like something?");
+}
+
+if (favFruit == "coconut") {
+    capitalize();
     document.write(favFruit + "? Eww, that's really gross. Exit this page immediately");
-} else if (favFruit == "strawberries"){
+} else if (favFruit == "strawberries" || "plums" || "blackberries") {
+    capitalize();
     document.write(favFruit + "? I love those too!");
-} else if (favFruit == "plums"){
-    document.write(favFruit + "? I love those too!");
-} else if (favFruit == "blackberries"){
-    document.write(favFruit + "? I love those too!");
-} else if (favFruit == null){
-    document.write("Don't have one? You'll get scurvy!");
 } else {
+    capitalize();
     document.write(favFruit + "? Solid choice!");
 }
 
