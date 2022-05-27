@@ -31,9 +31,14 @@ askFruit();
 
 function fruitRec() {
     let userNumber = prompt("Pick a number between 1-5");
+    if (userNumber > 5) {
+        userNumber = 0;
+        fruitRec();
+    }
     for (let i = 1; i <= userNumber; i++){
         document.write("<img src='shrug-emoji.gif' />");
     }
+
     return userNumber;
 }
 
