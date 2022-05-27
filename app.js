@@ -30,5 +30,11 @@ function askFruit() {
 askFruit();
 
 function fruitRec() {
-    confirm("Anything but coconut!");
+    let userNumber = prompt("Pick a number between 1-5");
+    for (let i = 1; i <= userNumber; i++){
+        document.write("<img src='shrug-emoji.gif' />");
+    }
+    return userNumber;
 }
+
+fruitRec();
